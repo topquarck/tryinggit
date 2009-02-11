@@ -1,0 +1,29 @@
+
+**********************************************************
+**************** Things to be learnt in git **************
+		***************************
+		***************************
+
+1. learn how to add a new file to the local repository
+	a. create the file
+	b. git add <fileName>
+	c. git commit <fileName> -m "the commit message to describe the change"
+
+2. commit changes made in an existing file:
+	git commit <fileName> -m " the commit message to describe the change"
+
+3. to view the commit history of a file:
+	git log <fileName>
+this comand will show u all commits done for the specified file including the commit messages
+
+4. to diff
+
+5. to push a commit or a group of commits to another user/repo or to the central repo
+
+6. to create a new branch
+
+7. to merge branches or some specific commits from branch A to branch B
+
+9. to commit the newly created branch
+
+10. to send a new branch to other users/repos
