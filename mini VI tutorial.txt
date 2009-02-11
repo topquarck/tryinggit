@@ -1,0 +1,20 @@
+
+****************** My mini vi tutorial ******************
+********************************************************
+
+	1. th start vi:
+		$vi
+		OR
+		$vi <fileName>
+	2. the second step: 
+		press 'i' to enter the insert mode
+	3. write the text you want
+	4. to save:
+		a. Press 'ESC'
+		b. write ':w' DONT forget the ':' before the w
+		OR
+		:w fileNameToBeSavedin
+	5. to quit vi:
+		'ESC' to enter the command mode
+		':q' to quit
+		':q!' to quit without saving changes
