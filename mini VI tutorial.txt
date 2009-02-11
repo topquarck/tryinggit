@@ -18,3 +18,10 @@
 		'ESC' to enter the command mode
 		':q' to quit
 		':q!' to quit without saving changes
+
+	IMPORTANT:
+		when u open an existing file for edit, U cant update in it , THATS because u still in the 
+		command mode, So, u need to press the 'i' to start editing it
+		the same situation happend after issuing a command< with ESC> u need to enter the 'i' letter
+		in order to proceed with editing the file after - for example, saving it .
+
