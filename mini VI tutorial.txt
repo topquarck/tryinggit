@@ -13,7 +13,7 @@
 		a. Press 'ESC'
 		b. write ':w' DONT forget the ':' before the w
 		OR
-		:w fileNameToBeSavedin
+		:w fileNameToBeSavedin , to write to another file.
 	5. to quit vi:
 		'ESC' to enter the command mode
 		':q' to quit
@@ -24,4 +24,17 @@
 		command mode, So, u need to press the 'i' to start editing it
 		the same situation happend after issuing a command< with ESC> u need to enter the 'i' letter
 		in order to proceed with editing the file after - for example, saving it .
+	
+	6. to search for a word:
+		starting from the current curser position:
+		in the Command mode, type '/theWordToSearchFor' for forward search, and 
+		'?theWordToSearchFor' for backword search.
+		ex: let's search for the word 'ESC' in this file
+			a. enter the Command mode by pressing ESC
+			b. type: '/ESC'
+			c. the cursor will go automatically to thefirt occurance of the wordfound
+			d. to search for the next occurance, press the 'n' key
+			e. to search for the previous occurance, press the 'N' key
 
+	IMPORTANT: the search is key-sensitive : < if u try to earch for 'esc' the small letters, 
+	no results will appear>
