@@ -16,11 +16,29 @@
 	git log <fileName>
 this comand will show u all commits done for the specified file including the commit messages
 
+4. to see the status of the changed files:
+	git status
+it will list all the changed files in the intire folder
+
 4. to diff
 
 5. to push a commit or a group of commits to another user/repo or to the central repo
 
 6. to create a new branch
+    git branch <branch_name>
+    ex: git branch expirement
+this will create a new EMPTY local branch
+
+7. to view the available branches:
+    git branch
+    
+8. After creating a new branch, you need to checkout SWITCH  to the newly created branch
+    git checkout <branch_name>
+    ex: git checkout master <-- will switch back to master branch
+    
+9. if you made some changes in the other branch, commit it < with normal commit command>
+ and you want to merge the two branches,
+     git merge <new branch>
 
 7. to merge branches or some specific commits from branch A to branch B
 
